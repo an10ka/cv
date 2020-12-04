@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Usage of Forms</title>
+  </head>
+  <body>
+    <label>Contact me</label>
+    <input type="text" name="" value="">
+    <input type="submit" name="">
+    <hr>
+    <label>Choose a profile picture:</label><br>
+    <input type="file"
+        name="picture"
+        accept=".img,.jpg,.doc,.docx,.png">
+    <hr>
+    <label for="start">Start date:</label><br>
+    <input type="date" id="start" name="trip-start"
+            value="22-03-2020"
+            min="03-12-2020" max="22-03-2021">
+    <hr>
+
+<form>
+    <p>Select your preferred contact method:</p>
+    <div>
+    <input type="radio" id="contactChoice1" name="contact" value="email">
+    <label for="email">Email</label>
+    <input type="radio" name="contactChoice2" name="phone" value="phone">
+    <label for="Phone">Phone</label>
+    </div>
+    <div>
+      <button type="button">Submit</button>
+      <input type="reset" value="Reset">
+    </div>
+</form>
+
+<hr>
+<p>Please rate:</p>
+<label for="range">Zero</label>
+<input type="range" id="rate" min="0" max="5">
+<label for="range">Five</label>
+  </body>
+</html>
